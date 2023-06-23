@@ -1,0 +1,18 @@
+name: AorB
+version: '${project.version}'
+main: com.github.kumo0621.aorb.AorB
+api-version: 1.16
+commands:
+  a:
+    permission: hito
+  b:
+    permission: hito
+  AorBstart:
+    permission: op
+  end:
+    permission: op
+permissions:
+  op:
+    default: op
+  hito:
+    default: true
